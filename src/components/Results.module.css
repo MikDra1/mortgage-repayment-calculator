@@ -20,6 +20,7 @@
 
 .resultsHero p {
     color: var(--Slate-300);
+    max-width: 40ch;
 }
 
 .results p  {
@@ -60,6 +61,10 @@
 @media (min-width: 62.5em) {
     .resultsHero, .results {
         border-radius: 0 1rem 1rem 4rem;
+    }
+
+    .resultsHero p {
+        max-width: auto;
     }
 
     .results {
